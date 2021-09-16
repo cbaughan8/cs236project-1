@@ -64,7 +64,12 @@ void UndefinedAutomaton::S4(const std::string& input) {
     }
     else if (input[index] == EOF);
     else if (index >= input.size());
-    else { Serr();}
+    else {
+        if (input[index] == '\n') ++newLines;
+        ++inputRead;
+        ++index;
+        S4(input);
+    }
 }
 
 void UndefinedAutomaton::S5(const std::string& input) {

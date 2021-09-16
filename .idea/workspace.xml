@@ -14,6 +14,7 @@
   <component name="ChangeListManager">
     <list default="true" id="4b875bf3-2ab4-42e5-9cc2-355a1909f715" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/StringAutomaton.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/StringAutomaton.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UndefinedAutomaton.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/UndefinedAutomaton.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -70,7 +71,7 @@
         <option name="CLION.EXTERNAL.BUILD" enabled="true" />
       </method>
     </configuration>
-    <configuration name="project-1" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="Lab1PassOffCases/1-100/input2.txt" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" WORKING_DIR="file://$PROJECT_DIR$" PASS_PARENT_ENVS_2="true" PROJECT_NAME="project-1" TARGET_NAME="project-1" CONFIG_NAME="Debug-Schizo" RUN_TARGET_PROJECT_NAME="project-1" RUN_TARGET_NAME="project-1">
+    <configuration name="project-1" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="Lab1PassOffCases/1-90/input3.txt" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" WORKING_DIR="file://$PROJECT_DIR$" PASS_PARENT_ENVS_2="true" PROJECT_NAME="project-1" TARGET_NAME="project-1" CONFIG_NAME="Debug-Schizo" RUN_TARGET_PROJECT_NAME="project-1" RUN_TARGET_NAME="project-1">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -97,7 +98,7 @@
       <workItem from="1631821253805" duration="725000" />
       <workItem from="1631822077887" duration="1118000" />
       <workItem from="1631823906036" duration="31000" />
-      <workItem from="1631825921696" duration="1098000" />
+      <workItem from="1631825921696" duration="4032000" />
     </task>
     <servers />
   </component>
@@ -120,11 +121,19 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/Lexer.cpp</url>
-          <line>61</line>
-          <option name="timeStamp" value="1" />
+          <url>file://$PROJECT_DIR$/UndefinedAutomaton.cpp</url>
+          <line>4</line>
+          <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="CMakeRunConfiguration">
+        <watch expression="index" language="ObjectiveC" />
+        <watch expression="input.size()" language="ObjectiveC" />
+        <watch expression="newLines" language="ObjectiveC" />
+        <watch expression="inputRead" language="ObjectiveC" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>
