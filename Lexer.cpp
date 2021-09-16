@@ -27,9 +27,9 @@ Lexer::Lexer() {
 }
 
 Lexer::~Lexer() {
-    for (unsigned int i = 0; i < automata.size(); ++i){
+    /*for (unsigned int i = 0; i < automata.size(); ++i){
         delete automata.at(i);
-    }
+    }*/
     for (unsigned int i = 0; i < tokens.size(); ++i){
         delete tokens.at(i);
     }
