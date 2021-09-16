@@ -1,4 +1,4 @@
-# Install script for directory: /tmp/tmp.b9N0DMnatq
+# Install script for directory: /users/guest/c/cbaughan/cs236/project-1
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/tmp/tmp.b9N0DMnatq/cmake-build-debug-schizo/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/users/guest/c/cbaughan/cs236/project-1/cmake-build-debug-schizo/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
