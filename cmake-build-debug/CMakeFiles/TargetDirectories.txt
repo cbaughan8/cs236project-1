@@ -1,0 +1,3 @@
+C:/Users/carso/OneDrive/Documents/CS/236/project-1/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/carso/OneDrive/Documents/CS/236/project-1/cmake-build-debug/CMakeFiles/project-1.dir
+C:/Users/carso/OneDrive/Documents/CS/236/project-1/cmake-build-debug/CMakeFiles/rebuild_cache.dir

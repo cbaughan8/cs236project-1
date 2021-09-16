@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
+    <generated>
+      <config projectName="project-1" targetName="project-1" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug-Schizo" CONFIG_NAME="Debug" TOOLCHAIN_NAME="Schizo" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4b875bf3-2ab4-42e5-9cc2-355a1909f715" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug-Schizo" />
+  <component name="ProjectId" id="1y9fZBS5Ujr8h2sWlXLjWSTfXel" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="CPPToolchains" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\carso\OneDrive\Documents\CS\236\project-1\resources" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="project-1" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="Lab1PassOffCases/1-70/input7.txt" PASS_PARENT_ENVS_2="true" PROJECT_NAME="project-1" TARGET_NAME="project-1" CONFIG_NAME="Debug-Schizo" RUN_TARGET_PROJECT_NAME="project-1" RUN_TARGET_NAME="project-1">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4b875bf3-2ab4-42e5-9cc2-355a1909f715" name="Default Changelist" comment="" />
+      <created>1631668777277</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1631668777277</updated>
+      <workItem from="1631668778462" duration="43825000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="194" y="4" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1631812548789">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="194" y="4" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1631812548789" />
+    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1631668830037">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1631668830037" />
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1631813584914">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1631813584914" />
+    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1631813584914">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1631813584914" />
+    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1631813584914">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1631813584914" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1631813584914">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1631813584914" />
+    <state width="1323" height="223" key="GridCell.Tab.1.bottom" timestamp="1631811765034">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.1.bottom/0.0.1366.728@0.0.1366.728" timestamp="1631811765034" />
+    <state width="1323" height="223" key="GridCell.Tab.1.center" timestamp="1631811765034">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.1.center/0.0.1366.728@0.0.1366.728" timestamp="1631811765034" />
+    <state width="1323" height="223" key="GridCell.Tab.1.left" timestamp="1631811765034">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.1.left/0.0.1366.728@0.0.1366.728" timestamp="1631811765034" />
+    <state width="1323" height="223" key="GridCell.Tab.1.right" timestamp="1631811765034">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1323" height="223" key="GridCell.Tab.1.right/0.0.1366.728@0.0.1366.728" timestamp="1631811765034" />
+    <state x="161" y="13" key="SettingsEditor" timestamp="1631813696035">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="161" y="13" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1631813696035" />
+    <state x="379" y="0" width="607" height="728" key="find.popup" timestamp="1631811515339">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="379" y="0" width="607" height="728" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1631811515339" />
+    <state x="545" y="101" key="ftp.server.browser" timestamp="1631813687961">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="545" y="101" key="ftp.server.browser/0.0.1366.728@0.0.1366.728" timestamp="1631813687961" />
+    <state x="339" y="162" key="run.anything.popup" timestamp="1631767565052">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1631767565052" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1631764803647">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1631764803647" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/Lexer.cpp</url>
+          <line>64</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/Lexer.cpp</url>
+          <line>77</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

@@ -1,0 +1,9 @@
+: :- Schemes Facts Rules
+Queries 'What is going on'
+'This string is '' acceptable'
+# This comment is great
+#| This comment is pretty good|#
+#| This comment is
+crazy |#
+&* $ 3 @
+#| This aint no comment
