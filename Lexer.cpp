@@ -140,7 +140,6 @@ void Lexer::Run(std::string& input) {
     // delete memory for maxAutomata and newToken
 
 }
-
 void Lexer::TotalTokens() {
     std::cout << "Total Tokens = " << tokens.size() << std::endl;
 }

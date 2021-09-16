@@ -12,9 +12,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4b875bf3-2ab4-42e5-9cc2-355a1909f715" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/makefile_1" beforeDir="false" afterPath="$PROJECT_DIR$/makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Automaton.h" beforeDir="false" afterPath="$PROJECT_DIR$/Automaton.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Lexer.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Lexer.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +69,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1631668777277</updated>
-      <workItem from="1631668778462" duration="44776000" />
+      <workItem from="1631668778462" duration="45072000" />
     </task>
     <servers />
   </component>
@@ -85,22 +85,22 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1631668830037" />
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1631814631121">
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom" timestamp="1631815027477">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1631814631121" />
-    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1631814631121">
+    <state width="1323" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1631815027477" />
+    <state width="1323" height="179" key="GridCell.Tab.0.center" timestamp="1631815027477">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1631814631121" />
-    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1631814631121">
+    <state width="1323" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1631815027477" />
+    <state width="1323" height="179" key="GridCell.Tab.0.left" timestamp="1631815027477">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1631814631121" />
-    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1631814631121">
+    <state width="1323" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1631815027477" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right" timestamp="1631815027477">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1631814631121" />
+    <state width="1323" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1631815027477" />
     <state width="1323" height="223" key="GridCell.Tab.1.bottom" timestamp="1631811765034">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -121,10 +121,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="161" y="13" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1631813696035" />
-    <state x="379" y="0" width="607" height="728" key="find.popup" timestamp="1631811515339">
+    <state x="379" y="0" width="607" height="728" key="find.popup" timestamp="1631814998425">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="379" y="0" width="607" height="728" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1631811515339" />
+    <state x="379" y="0" width="607" height="728" key="find.popup/0.0.1366.728@0.0.1366.728" timestamp="1631814998425" />
     <state x="545" y="101" key="ftp.server.browser" timestamp="1631813687961">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -137,21 +137,5 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1631764803647" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/Lexer.cpp</url>
-          <line>64</line>
-          <option name="timeStamp" value="19" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
-          <url>file://$PROJECT_DIR$/Lexer.cpp</url>
-          <line>77</line>
-          <option name="timeStamp" value="20" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
