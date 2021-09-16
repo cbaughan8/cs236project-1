@@ -18,7 +18,6 @@ int main(int argc, char** argv) {
     lexer->Run(input);
     std::cout << input;
     lexer->TotalTokens();
-    std::cout << std::endl;
 
     delete lexer;
 
