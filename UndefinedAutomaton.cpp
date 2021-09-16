@@ -37,6 +37,7 @@ void UndefinedAutomaton::S2(const std::string& input) {
     else if (input[index] == EOF);
     else if (index >= input.size());
     else {
+        if (input[index] == '\n') ++newLines;
         ++inputRead;
         ++index;
         S2(input);
@@ -48,6 +49,7 @@ void UndefinedAutomaton::S3(const std::string& input) {
     else if (input[index] == EOF);
     else if (index >= input.size());
     else {
+        if (input[index] == '\n') ++newLines;
         ++inputRead;
         ++index;
         S2(input);

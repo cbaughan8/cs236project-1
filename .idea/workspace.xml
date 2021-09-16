@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="CMakeRunConfigurationManager" shouldGenerate="true" shouldDeleteObsolete="true">
     <generated />
   </component>
@@ -10,63 +13,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4b875bf3-2ab4-42e5-9cc2-355a1909f715" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-schizo/CMakeCache.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-schizo/CMakeFiles/3.16.3/CMakeCCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-schizo/CMakeFiles/3.16.3/CMakeCXXCompiler.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-schizo/CMakeFiles/3.16.3/CMakeDetermineCompilerABI_C.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-schizo/CMakeFiles/3.16.3/CMakeDetermineCompilerABI_CXX.bin" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-schizo/CMakeFiles/3.16.3/CMakeSystem.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-schizo/CMakeFiles/3.16.3/CompilerIdC/CMakeCCompilerId.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-schizo/CMakeFiles/3.16.3/CompilerIdC/a.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-schizo/CMakeFiles/3.16.3/CompilerIdCXX/CMakeCXXCompilerId.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-schizo/CMakeFiles/3.16.3/CompilerIdCXX/a.out" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-schizo/CMakeFiles/CMakeDirectoryInformation.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-schizo/CMakeFiles/CMakeOutput.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-schizo/CMakeFiles/Makefile.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-schizo/CMakeFiles/Makefile2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-schizo/CMakeFiles/TargetDirectories.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-schizo/CMakeFiles/clion-environment.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-schizo/CMakeFiles/clion-log.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-schizo/CMakeFiles/cmake.check_cache" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-schizo/CMakeFiles/progress.marks" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-schizo/CMakeFiles/project-1.dir/DependInfo.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-schizo/CMakeFiles/project-1.dir/build.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-schizo/CMakeFiles/project-1.dir/cmake_clean.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-schizo/CMakeFiles/project-1.dir/depend.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-schizo/CMakeFiles/project-1.dir/flags.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-schizo/CMakeFiles/project-1.dir/link.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-schizo/CMakeFiles/project-1.dir/progress.make" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-schizo/Lab1PassOffCases/1-100/answer1.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-schizo/Lab1PassOffCases/1-100/answer2.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-schizo/Lab1PassOffCases/1-100/input1.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-schizo/Lab1PassOffCases/1-100/input2.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-schizo/Lab1PassOffCases/1-70/answer1.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-schizo/Lab1PassOffCases/1-70/answer3.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-schizo/Lab1PassOffCases/1-70/answer4.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-schizo/Lab1PassOffCases/1-70/answer5.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-schizo/Lab1PassOffCases/1-70/answer6.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-schizo/Lab1PassOffCases/1-70/answer7.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-schizo/Lab1PassOffCases/1-70/answernoway.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-schizo/Lab1PassOffCases/1-70/input1.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-schizo/Lab1PassOffCases/1-70/input3.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-schizo/Lab1PassOffCases/1-70/input4.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-schizo/Lab1PassOffCases/1-70/input5.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-schizo/Lab1PassOffCases/1-70/input6.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-schizo/Lab1PassOffCases/1-70/input7.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-schizo/Lab1PassOffCases/1-70/inputnoway.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-schizo/Lab1PassOffCases/1-90/answer1.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-schizo/Lab1PassOffCases/1-90/answer2.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-schizo/Lab1PassOffCases/1-90/answer3.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-schizo/Lab1PassOffCases/1-90/input1.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-schizo/Lab1PassOffCases/1-90/input2.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-schizo/Lab1PassOffCases/1-90/input3.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-schizo/Makefile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-schizo/cmake_install.cmake" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-schizo/project-1.cbp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-schizo/resources/in.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UndefinedAutomaton.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/UndefinedAutomaton.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -149,7 +97,7 @@
       <workItem from="1631821253805" duration="725000" />
       <workItem from="1631822077887" duration="1118000" />
       <workItem from="1631823906036" duration="31000" />
-      <workItem from="1631825921696" duration="419000" />
+      <workItem from="1631825921696" duration="1098000" />
     </task>
     <servers />
   </component>
@@ -167,5 +115,16 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="com.jetbrains.cidr.execution.debugger.OCBreakpointType">
+          <url>file://$PROJECT_DIR$/Lexer.cpp</url>
+          <line>61</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
