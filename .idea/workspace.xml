@@ -16,7 +16,7 @@
   <component name="ChangeListManager">
     <list default="true" id="4b875bf3-2ab4-42e5-9cc2-355a1909f715" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/makefile" beforeDir="false" afterPath="$PROJECT_DIR$/makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DatalogProgram.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/DatalogProgram.cpp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,7 +72,7 @@
         <option name="CLION.EXTERNAL.BUILD" enabled="true" />
       </method>
     </configuration>
-    <configuration name="project-1" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="Lab2PassOffCases/2-100/input0.txt" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" WORKING_DIR="file://$PROJECT_DIR$" PASS_PARENT_ENVS_2="true" PROJECT_NAME="project-1" TARGET_NAME="project-1" CONFIG_NAME="Debug-Schizo" RUN_TARGET_PROJECT_NAME="project-1" RUN_TARGET_NAME="project-1">
+    <configuration name="project-1" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="Lab2PassOffCases/2-80/input1.txt" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" WORKING_DIR="file://$PROJECT_DIR$" PASS_PARENT_ENVS_2="true" PROJECT_NAME="project-1" TARGET_NAME="project-1" CONFIG_NAME="Debug-Schizo" RUN_TARGET_PROJECT_NAME="project-1" RUN_TARGET_NAME="project-1">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
@@ -101,7 +101,7 @@
       <workItem from="1631823906036" duration="31000" />
       <workItem from="1631825921696" duration="4848000" />
       <workItem from="1632276279991" duration="2404000" />
-      <workItem from="1632870702913" duration="46713000" />
+      <workItem from="1632870702913" duration="47074000" />
     </task>
     <servers />
   </component>

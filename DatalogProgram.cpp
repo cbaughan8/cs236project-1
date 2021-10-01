@@ -57,7 +57,7 @@ void DatalogProgram::Match(TokenType tokenType) {
     if(tokenList.at(index)->GetType() != tokenType){
         std::stringstream ss;
         std::string failure;
-        ss << "Failure!" << "\n  " << tokenList.at(index)->toString();
+        ss << "Failure!" << std::endl << "  " << tokenList.at(index)->toString() << std::endl;
         failure = ss.str();
         throw failure;
     }
@@ -208,11 +208,8 @@ void DatalogProgram::Parameter() {
     if (tokenList.at(index)->GetType() == TokenType::STRING) {
         Match(TokenType::STRING);
     }
-    else if (tokenList.at(index)->GetType() == TokenType::ID){
-        Match(TokenType::ID);
-    }
     else{
-        throw "Bad";
+        Match(TokenType::ID);
     }
 }
 
