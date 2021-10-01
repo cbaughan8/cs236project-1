@@ -57,7 +57,7 @@ void DatalogProgram::Match(TokenType tokenType) {
     if(tokenList.at(index)->GetType() != tokenType){
         std::stringstream ss;
         std::string failure;
-        ss << "Failure!" << std::endl << "  " << tokenList.at(index)->toString() << std::endl;
+        ss << "Failure!" << std::endl << "  " << tokenList.at(index)->toString();
         failure = ss.str();
         throw failure;
     }
