@@ -308,7 +308,7 @@ std::string DatalogProgram::DatalogToString() {
     ss << FactsToString();
     ss << "Rules(" << rules.size() << "):" << std::endl;
     ss << RulesToString();
-    ss << "Queries(" << rules.size() << "):" << std::endl;
+    ss << "Queries(" << queries.size() << "):" << std::endl;
     ss << QueriesToString();
     ss << "Domain(" << domainParams.size() << "):" << std::endl;
     ss << DomainToString();
