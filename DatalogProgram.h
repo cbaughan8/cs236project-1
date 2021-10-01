@@ -30,7 +30,7 @@ private:
     std::string tempText;
     std::string tempID;
     Parameters* tempParameter;
-    //Predicates* tempPredicate;
+    Predicates* tempPred;
 
 public:
     DatalogProgram(std::vector<Token*> tokenList);

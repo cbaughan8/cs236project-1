@@ -14,7 +14,6 @@ DatalogProgram* Parser::Run(std::vector<Token*> tokens){
     DatalogProgram* datalogProgram = new DatalogProgram(this->tokens);
     datalogProgram->Init(datalogProgram);
 
-
     // maybe make a deep copy
     return datalogProgram;
 }

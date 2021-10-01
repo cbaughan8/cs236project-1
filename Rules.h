@@ -13,7 +13,8 @@ public:
     Rules(Predicates* head);
     void SetName(std::string name);
     std::string GetName();
-    void addBodyPredicate(Predicates* bodyP);
+    void AddHeadPredicate(Predicates* headP);
+    void AddBodyPredicate(Predicates* bodyP);
     std::string toString();
 };
 

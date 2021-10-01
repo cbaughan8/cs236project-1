@@ -12,7 +12,11 @@ std::string Rules::GetName() {
     return name;
 }
 
-void Rules::addBodyPredicate(Predicates *bodyP) {
+void Rules::AddHeadPredicate(Predicates *headP) {
+    this->headPredicate = headP;
+}
+
+void Rules::AddBodyPredicate(Predicates *bodyP) {
     bodyPredicates.push_back(bodyP);
 }
 
@@ -23,6 +27,7 @@ std::string Rules::toString() {
         //if (i != 0) ss << ",";
         ss << bodyPredicates.at(i)->toString();
         if (i == bodyPredicates.size() - 1) ss << ".";
+        else ss << ",";
     }
     return ss.str();
 }

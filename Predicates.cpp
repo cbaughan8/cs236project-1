@@ -30,12 +30,11 @@ std::vector<Parameters*> Predicates::GetParameters(){
 
 std::string Predicates::toString() {
     std::stringstream ss;
-    ss << name;
-    /*ss << "   " << id << "(";
+    ss << id << "(";
     for (unsigned int i = 0; i < parameters.size(); ++i){
         if (i != 0) ss << ",";
         ss << parameters.at(i)->toString();
     }
-    ss << ")";*/
+    ss << ")";
     return ss.str();
 }

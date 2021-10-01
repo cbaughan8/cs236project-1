@@ -127,16 +127,22 @@ void DatalogProgram::FactList() {
 
 void DatalogProgram::Rule() {
     HeadPredicate();
-    auto tempPred = new Predicates(tempText);
     auto tempRule = new Rules(tempPred);
+    tempRule->AddHeadPredicate(tempPred);
+    tempParams.clear();
     tempText = "";
     Match(TokenType::COLON_DASH);
     tempText = "";
     Predicate();
+    for (unsigned int i = 0; i < tempParams.size(); ++i){
+        tempPred->AddParameter(tempParams.at(i));
+    }
+    rulePredicates.push_back(tempPred);
+    tempParams.clear();
     PredicateList();
     Match(TokenType::PERIOD);
     for (unsigned int i = 0; i < rulePredicates.size(); ++i){
-        tempRule->addBodyPredicate(rulePredicates.at(i));
+        tempRule->AddBodyPredicate(rulePredicates.at(i));
     }
     rules.push_back(tempRule);
     rulePredicates.clear();
@@ -156,13 +162,14 @@ void DatalogProgram::RuleList() {
 void DatalogProgram::Query() {
     auto tempPredicate = new Predicates(tempText);
     Predicate();
-    for (unsigned int i = 0; i < tempParams.size(); ++i){
-        tempPredicate->AddParameter(tempParams.at(i));
-    }
     Match(TokenType::Q_MARK);
-    tempPredicate->SetName(tempText);
-    queries.push_back(tempPredicate);
+    for (unsigned int i = 0; i < tempParams.size(); ++i){
+        tempPred->AddParameter(tempParams.at(i));
+    }
+    tempPred->SetName(tempText);
+    queries.push_back(tempPred);
     tempText = "";
+    tempParams.clear();
 }
 
 void DatalogProgram::QueryList() {
@@ -174,43 +181,61 @@ void DatalogProgram::QueryList() {
 }
 
 void DatalogProgram::HeadPredicate() {
+    auto tempPredicate = new Predicates();
+    auto tempParam = new Parameters();
     Match(TokenType::ID);
+    tempPredicate->AddId(tempID);
     Match(TokenType::LEFT_PAREN);
     Match(TokenType::ID);
+    tempParam->Setp(tempID);
+    tempParams.push_back(tempParam);
     IdList();
     Match(TokenType::RIGHT_PAREN);
+    tempPred = tempPredicate;
+    for (unsigned int i = 0; i < tempParams.size(); ++i){
+        tempPred->AddParameter(tempParams.at(i));
+    }
 
 }
 
 void DatalogProgram::Predicate() {
+    auto tempPredicate = new Predicates();
     Match(TokenType::ID);
     Match(TokenType::LEFT_PAREN);
-    //tempParameter->Setp(tempID);
-
+    tempPredicate->AddId(tempID);
     Parameter();
     ParameterList();
     Match(TokenType::RIGHT_PAREN);
+    tempPred = tempPredicate;
 }
 
 void DatalogProgram::PredicateList() {
     auto tempPredicate = new Predicates(tempText);
-    rulePredicates.push_back(tempPredicate);
     tempText = "";
     if (tokenList.at(index)->GetType() == TokenType::PERIOD) {}
     else{
         Match(TokenType::COMMA);
         Predicate();
+        for (unsigned int i = 0; i < tempParams.size(); ++i){
+            tempPred->AddParameter(tempParams.at(i));
+        }
+        rulePredicates.push_back(tempPred);
+        tempParams.clear();
         PredicateList();
     }
 }
 
 void DatalogProgram::Parameter() {
+    auto tempParam = new Parameters();
     if (tokenList.at(index)->GetType() == TokenType::STRING) {
         Match(TokenType::STRING);
     }
     else{
         Match(TokenType::ID);
+
     }
+    tempParam->Setp(tempID);
+    tempParams.push_back(tempParam);
 }
 
 void DatalogProgram::ParameterList() {
@@ -284,8 +309,9 @@ std::string DatalogProgram::RulesToString() {
 std::string DatalogProgram::QueriesToString() {
     std::stringstream ss;
     for (unsigned int i = 0; i < queries.size(); ++i){
-        ss << "  " << queries.at(i)->toString() << std::endl;
+        ss << "  " << queries.at(i)->toString() << "?" << std::endl;
     }
+
     return ss.str();
 }
 
