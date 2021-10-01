@@ -28,7 +28,7 @@ int main(int argc, char** argv) {
         parser->Run(lexer->GetTokens());
     }
     catch(std::string e){
-        std::cerr << e << std::endl;
+        std::cout << e << std::endl;
     }
 
 

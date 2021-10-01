@@ -14,40 +14,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4b875bf3-2ab4-42e5-9cc2-355a1909f715" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/DatalogProgram.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/DatalogProgram.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Parameters.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Parameters.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Parser.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Parser.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ParserHelper.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ParserHelper.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Predicates.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Predicates.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Rules.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Rules.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lexer.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Lexer.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Lexer.h" beforeDir="false" afterPath="$PROJECT_DIR$/Lexer.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Token.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Token.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Token.h" beforeDir="false" afterPath="$PROJECT_DIR$/Token.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-schizo/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-schizo/CMakeFiles/Makefile.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-schizo/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-schizo/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-schizo/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-schizo/CMakeFiles/clion-log.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-schizo/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-schizo/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-schizo/CMakeFiles/project-1.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-schizo/CMakeFiles/project-1.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-schizo/CMakeFiles/project-1.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-schizo/CMakeFiles/project-1.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-schizo/CMakeFiles/project-1.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-schizo/CMakeFiles/project-1.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-schizo/CMakeFiles/project-1.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-schizo/CMakeFiles/project-1.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-schizo/CMakeFiles/project-1.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-schizo/CMakeFiles/project-1.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-schizo/CMakeFiles/project-1.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-schizo/CMakeFiles/project-1.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-schizo/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-schizo/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-schizo/project-1.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-schizo/project-1.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/makefile" beforeDir="false" afterPath="$PROJECT_DIR$/makefile" afterDir="false" />
-    </list>
+    <list default="true" id="4b875bf3-2ab4-42e5-9cc2-355a1909f715" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -131,7 +98,7 @@
       <workItem from="1631823906036" duration="31000" />
       <workItem from="1631825921696" duration="4848000" />
       <workItem from="1632276279991" duration="2404000" />
-      <workItem from="1632870702913" duration="44955000" />
+      <workItem from="1632870702913" duration="45418000" />
     </task>
     <servers />
   </component>
