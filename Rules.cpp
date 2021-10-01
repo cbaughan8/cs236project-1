@@ -20,9 +20,9 @@ std::string Rules::toString() {
     std::stringstream ss;
     ss << "  " << headPredicate->toString() << " :- ";
     for (unsigned int i = 0; i < bodyPredicates.size(); ++i){
+        //if (i != 0) ss << ",";
         ss << bodyPredicates.at(i)->toString();
-        if (i != 0 && i != bodyPredicates.size() - 1) ss << ",";
-        else if (i == bodyPredicates.size() - 1) ss << ".";
+        if (i == bodyPredicates.size() - 1) ss << ".";
     }
     return ss.str();
 }
