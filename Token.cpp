@@ -36,3 +36,11 @@ std::string Token::toString() {
 
     return ss.str();
 }
+
+TokenType Token::GetType() {
+    return type;
+}
+
+std::string Token::GetDescription() {
+    return description;
+}

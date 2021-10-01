@@ -115,6 +115,12 @@
 		<Unit filename="/users/guest/c/cbaughan/cs236/project-1/CommentAutomaton.h">
 			<Option target="project-1"/>
 		</Unit>
+		<Unit filename="/users/guest/c/cbaughan/cs236/project-1/DatalogProgram.cpp">
+			<Option target="project-1"/>
+		</Unit>
+		<Unit filename="/users/guest/c/cbaughan/cs236/project-1/DatalogProgram.h">
+			<Option target="project-1"/>
+		</Unit>
 		<Unit filename="/users/guest/c/cbaughan/cs236/project-1/EOFAutomaton.cpp">
 			<Option target="project-1"/>
 		</Unit>
@@ -151,10 +157,34 @@
 		<Unit filename="/users/guest/c/cbaughan/cs236/project-1/MultiplyAutomaton.h">
 			<Option target="project-1"/>
 		</Unit>
+		<Unit filename="/users/guest/c/cbaughan/cs236/project-1/Parameters.cpp">
+			<Option target="project-1"/>
+		</Unit>
+		<Unit filename="/users/guest/c/cbaughan/cs236/project-1/Parameters.h">
+			<Option target="project-1"/>
+		</Unit>
+		<Unit filename="/users/guest/c/cbaughan/cs236/project-1/Parser.cpp">
+			<Option target="project-1"/>
+		</Unit>
+		<Unit filename="/users/guest/c/cbaughan/cs236/project-1/Parser.h">
+			<Option target="project-1"/>
+		</Unit>
+		<Unit filename="/users/guest/c/cbaughan/cs236/project-1/ParserHelper.cpp">
+			<Option target="project-1"/>
+		</Unit>
+		<Unit filename="/users/guest/c/cbaughan/cs236/project-1/ParserHelper.h">
+			<Option target="project-1"/>
+		</Unit>
 		<Unit filename="/users/guest/c/cbaughan/cs236/project-1/PeriodAutomaton.cpp">
 			<Option target="project-1"/>
 		</Unit>
 		<Unit filename="/users/guest/c/cbaughan/cs236/project-1/PeriodAutomaton.h">
+			<Option target="project-1"/>
+		</Unit>
+		<Unit filename="/users/guest/c/cbaughan/cs236/project-1/Predicates.cpp">
+			<Option target="project-1"/>
+		</Unit>
+		<Unit filename="/users/guest/c/cbaughan/cs236/project-1/Predicates.h">
 			<Option target="project-1"/>
 		</Unit>
 		<Unit filename="/users/guest/c/cbaughan/cs236/project-1/Q_MarkAutomaton.cpp">
@@ -173,6 +203,12 @@
 			<Option target="project-1"/>
 		</Unit>
 		<Unit filename="/users/guest/c/cbaughan/cs236/project-1/Right_ParenAutomaton.h">
+			<Option target="project-1"/>
+		</Unit>
+		<Unit filename="/users/guest/c/cbaughan/cs236/project-1/Rules.cpp">
+			<Option target="project-1"/>
+		</Unit>
+		<Unit filename="/users/guest/c/cbaughan/cs236/project-1/Rules.h">
 			<Option target="project-1"/>
 		</Unit>
 		<Unit filename="/users/guest/c/cbaughan/cs236/project-1/RulesAutomaton.cpp">

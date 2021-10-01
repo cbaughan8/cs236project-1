@@ -20,6 +20,7 @@ public:
 
     void Run(std::string& input);
     void TotalTokens();
+    std::vector<Token*> GetTokens();
     // TODO: add other public methods here
 };
 

@@ -258,6 +258,33 @@ CommentAutomaton.cpp.s:
 	$(MAKE) -f CMakeFiles/project-1.dir/build.make CMakeFiles/project-1.dir/CommentAutomaton.cpp.s
 .PHONY : CommentAutomaton.cpp.s
 
+DatalogProgram.o: DatalogProgram.cpp.o
+
+.PHONY : DatalogProgram.o
+
+# target to build an object file
+DatalogProgram.cpp.o:
+	$(MAKE) -f CMakeFiles/project-1.dir/build.make CMakeFiles/project-1.dir/DatalogProgram.cpp.o
+.PHONY : DatalogProgram.cpp.o
+
+DatalogProgram.i: DatalogProgram.cpp.i
+
+.PHONY : DatalogProgram.i
+
+# target to preprocess a source file
+DatalogProgram.cpp.i:
+	$(MAKE) -f CMakeFiles/project-1.dir/build.make CMakeFiles/project-1.dir/DatalogProgram.cpp.i
+.PHONY : DatalogProgram.cpp.i
+
+DatalogProgram.s: DatalogProgram.cpp.s
+
+.PHONY : DatalogProgram.s
+
+# target to generate assembly for a file
+DatalogProgram.cpp.s:
+	$(MAKE) -f CMakeFiles/project-1.dir/build.make CMakeFiles/project-1.dir/DatalogProgram.cpp.s
+.PHONY : DatalogProgram.cpp.s
+
 EOFAutomaton.o: EOFAutomaton.cpp.o
 
 .PHONY : EOFAutomaton.o
@@ -420,6 +447,87 @@ MultiplyAutomaton.cpp.s:
 	$(MAKE) -f CMakeFiles/project-1.dir/build.make CMakeFiles/project-1.dir/MultiplyAutomaton.cpp.s
 .PHONY : MultiplyAutomaton.cpp.s
 
+Parameters.o: Parameters.cpp.o
+
+.PHONY : Parameters.o
+
+# target to build an object file
+Parameters.cpp.o:
+	$(MAKE) -f CMakeFiles/project-1.dir/build.make CMakeFiles/project-1.dir/Parameters.cpp.o
+.PHONY : Parameters.cpp.o
+
+Parameters.i: Parameters.cpp.i
+
+.PHONY : Parameters.i
+
+# target to preprocess a source file
+Parameters.cpp.i:
+	$(MAKE) -f CMakeFiles/project-1.dir/build.make CMakeFiles/project-1.dir/Parameters.cpp.i
+.PHONY : Parameters.cpp.i
+
+Parameters.s: Parameters.cpp.s
+
+.PHONY : Parameters.s
+
+# target to generate assembly for a file
+Parameters.cpp.s:
+	$(MAKE) -f CMakeFiles/project-1.dir/build.make CMakeFiles/project-1.dir/Parameters.cpp.s
+.PHONY : Parameters.cpp.s
+
+Parser.o: Parser.cpp.o
+
+.PHONY : Parser.o
+
+# target to build an object file
+Parser.cpp.o:
+	$(MAKE) -f CMakeFiles/project-1.dir/build.make CMakeFiles/project-1.dir/Parser.cpp.o
+.PHONY : Parser.cpp.o
+
+Parser.i: Parser.cpp.i
+
+.PHONY : Parser.i
+
+# target to preprocess a source file
+Parser.cpp.i:
+	$(MAKE) -f CMakeFiles/project-1.dir/build.make CMakeFiles/project-1.dir/Parser.cpp.i
+.PHONY : Parser.cpp.i
+
+Parser.s: Parser.cpp.s
+
+.PHONY : Parser.s
+
+# target to generate assembly for a file
+Parser.cpp.s:
+	$(MAKE) -f CMakeFiles/project-1.dir/build.make CMakeFiles/project-1.dir/Parser.cpp.s
+.PHONY : Parser.cpp.s
+
+ParserHelper.o: ParserHelper.cpp.o
+
+.PHONY : ParserHelper.o
+
+# target to build an object file
+ParserHelper.cpp.o:
+	$(MAKE) -f CMakeFiles/project-1.dir/build.make CMakeFiles/project-1.dir/ParserHelper.cpp.o
+.PHONY : ParserHelper.cpp.o
+
+ParserHelper.i: ParserHelper.cpp.i
+
+.PHONY : ParserHelper.i
+
+# target to preprocess a source file
+ParserHelper.cpp.i:
+	$(MAKE) -f CMakeFiles/project-1.dir/build.make CMakeFiles/project-1.dir/ParserHelper.cpp.i
+.PHONY : ParserHelper.cpp.i
+
+ParserHelper.s: ParserHelper.cpp.s
+
+.PHONY : ParserHelper.s
+
+# target to generate assembly for a file
+ParserHelper.cpp.s:
+	$(MAKE) -f CMakeFiles/project-1.dir/build.make CMakeFiles/project-1.dir/ParserHelper.cpp.s
+.PHONY : ParserHelper.cpp.s
+
 PeriodAutomaton.o: PeriodAutomaton.cpp.o
 
 .PHONY : PeriodAutomaton.o
@@ -446,6 +554,33 @@ PeriodAutomaton.s: PeriodAutomaton.cpp.s
 PeriodAutomaton.cpp.s:
 	$(MAKE) -f CMakeFiles/project-1.dir/build.make CMakeFiles/project-1.dir/PeriodAutomaton.cpp.s
 .PHONY : PeriodAutomaton.cpp.s
+
+Predicates.o: Predicates.cpp.o
+
+.PHONY : Predicates.o
+
+# target to build an object file
+Predicates.cpp.o:
+	$(MAKE) -f CMakeFiles/project-1.dir/build.make CMakeFiles/project-1.dir/Predicates.cpp.o
+.PHONY : Predicates.cpp.o
+
+Predicates.i: Predicates.cpp.i
+
+.PHONY : Predicates.i
+
+# target to preprocess a source file
+Predicates.cpp.i:
+	$(MAKE) -f CMakeFiles/project-1.dir/build.make CMakeFiles/project-1.dir/Predicates.cpp.i
+.PHONY : Predicates.cpp.i
+
+Predicates.s: Predicates.cpp.s
+
+.PHONY : Predicates.s
+
+# target to generate assembly for a file
+Predicates.cpp.s:
+	$(MAKE) -f CMakeFiles/project-1.dir/build.make CMakeFiles/project-1.dir/Predicates.cpp.s
+.PHONY : Predicates.cpp.s
 
 Q_MarkAutomaton.o: Q_MarkAutomaton.cpp.o
 
@@ -527,6 +662,33 @@ Right_ParenAutomaton.s: Right_ParenAutomaton.cpp.s
 Right_ParenAutomaton.cpp.s:
 	$(MAKE) -f CMakeFiles/project-1.dir/build.make CMakeFiles/project-1.dir/Right_ParenAutomaton.cpp.s
 .PHONY : Right_ParenAutomaton.cpp.s
+
+Rules.o: Rules.cpp.o
+
+.PHONY : Rules.o
+
+# target to build an object file
+Rules.cpp.o:
+	$(MAKE) -f CMakeFiles/project-1.dir/build.make CMakeFiles/project-1.dir/Rules.cpp.o
+.PHONY : Rules.cpp.o
+
+Rules.i: Rules.cpp.i
+
+.PHONY : Rules.i
+
+# target to preprocess a source file
+Rules.cpp.i:
+	$(MAKE) -f CMakeFiles/project-1.dir/build.make CMakeFiles/project-1.dir/Rules.cpp.i
+.PHONY : Rules.cpp.i
+
+Rules.s: Rules.cpp.s
+
+.PHONY : Rules.s
+
+# target to generate assembly for a file
+Rules.cpp.s:
+	$(MAKE) -f CMakeFiles/project-1.dir/build.make CMakeFiles/project-1.dir/Rules.cpp.s
+.PHONY : Rules.cpp.s
 
 RulesAutomaton.o: RulesAutomaton.cpp.o
 
@@ -714,6 +876,9 @@ help:
 	@echo "... CommentAutomaton.o"
 	@echo "... CommentAutomaton.i"
 	@echo "... CommentAutomaton.s"
+	@echo "... DatalogProgram.o"
+	@echo "... DatalogProgram.i"
+	@echo "... DatalogProgram.s"
 	@echo "... EOFAutomaton.o"
 	@echo "... EOFAutomaton.i"
 	@echo "... EOFAutomaton.s"
@@ -732,9 +897,21 @@ help:
 	@echo "... MultiplyAutomaton.o"
 	@echo "... MultiplyAutomaton.i"
 	@echo "... MultiplyAutomaton.s"
+	@echo "... Parameters.o"
+	@echo "... Parameters.i"
+	@echo "... Parameters.s"
+	@echo "... Parser.o"
+	@echo "... Parser.i"
+	@echo "... Parser.s"
+	@echo "... ParserHelper.o"
+	@echo "... ParserHelper.i"
+	@echo "... ParserHelper.s"
 	@echo "... PeriodAutomaton.o"
 	@echo "... PeriodAutomaton.i"
 	@echo "... PeriodAutomaton.s"
+	@echo "... Predicates.o"
+	@echo "... Predicates.i"
+	@echo "... Predicates.s"
 	@echo "... Q_MarkAutomaton.o"
 	@echo "... Q_MarkAutomaton.i"
 	@echo "... Q_MarkAutomaton.s"
@@ -744,6 +921,9 @@ help:
 	@echo "... Right_ParenAutomaton.o"
 	@echo "... Right_ParenAutomaton.i"
 	@echo "... Right_ParenAutomaton.s"
+	@echo "... Rules.o"
+	@echo "... Rules.i"
+	@echo "... Rules.s"
 	@echo "... RulesAutomaton.o"
 	@echo "... RulesAutomaton.i"
 	@echo "... RulesAutomaton.s"

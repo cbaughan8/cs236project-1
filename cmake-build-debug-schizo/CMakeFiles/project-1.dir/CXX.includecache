@@ -1,0 +1,42 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/users/guest/c/cbaughan/cs236/project-1/DatalogProgram.cpp
+DatalogProgram.h
+/users/guest/c/cbaughan/cs236/project-1/DatalogProgram.h
+Predicates.h
+/users/guest/c/cbaughan/cs236/project-1/Predicates.h
+
+/users/guest/c/cbaughan/cs236/project-1/DatalogProgram.h
+Token.h
+/users/guest/c/cbaughan/cs236/project-1/Token.h
+Predicates.h
+/users/guest/c/cbaughan/cs236/project-1/Predicates.h
+Parameters.h
+/users/guest/c/cbaughan/cs236/project-1/Parameters.h
+Rules.h
+/users/guest/c/cbaughan/cs236/project-1/Rules.h
+vector
+-
+
+/users/guest/c/cbaughan/cs236/project-1/Parameters.h
+string
+-
+
+/users/guest/c/cbaughan/cs236/project-1/Predicates.h
+string
+-
+
+/users/guest/c/cbaughan/cs236/project-1/Rules.h
+string
+-
+
+/users/guest/c/cbaughan/cs236/project-1/Token.h
+string
+-
+
