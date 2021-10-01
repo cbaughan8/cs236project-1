@@ -160,7 +160,6 @@ void DatalogProgram::RuleList() {
 }
 
 void DatalogProgram::Query() {
-    auto tempPredicate = new Predicates(tempText);
     Predicate();
     Match(TokenType::Q_MARK);
     for (unsigned int i = 0; i < tempParams.size(); ++i){
@@ -210,7 +209,6 @@ void DatalogProgram::Predicate() {
 }
 
 void DatalogProgram::PredicateList() {
-    auto tempPredicate = new Predicates(tempText);
     tempText = "";
     if (tokenList.at(index)->GetType() == TokenType::PERIOD) {}
     else{
