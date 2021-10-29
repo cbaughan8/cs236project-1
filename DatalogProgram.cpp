@@ -3,6 +3,31 @@
 #include <iostream>
 #include <algorithm>
 
+DatalogProgram::DatalogProgram() {
+
+}
+
+DatalogProgram::~DatalogProgram() {
+    /*for(unsigned int i = 0; i < schemes.size(); ++i){
+        delete schemes.at(i);
+    }
+    for(unsigned int i = 0; i < facts.size(); ++i){
+        delete facts.at(i);
+    }
+    for(unsigned int i = 0; i < queries.size(); ++i){
+        delete queries.at(i);
+    }
+    for(unsigned int i = 0; i < rulePredicates.size(); ++i){
+        delete rulePredicates.at(i);
+    }
+    for(unsigned int i = 0; i < rules.size(); ++i){
+        delete rules.at(i);
+    }
+    for(unsigned int i = 0; i < tempParams.size(); ++i){
+        delete tempParams.at(i);
+    }*/
+}
+
 DatalogProgram::DatalogProgram(std::vector<Token*> tokenList) {
     this->tokenList = tokenList;
     tempText = "";
@@ -42,10 +67,10 @@ void DatalogProgram::Datalog(DatalogProgram* self) {
     Query();
     QueryList();
     Match(TokenType::EOF_ENUM);
-    std::cout << "Success!" << std::endl;
+    //std::cout << "Success!" << std::endl;
     //testing
     FindDomain();
-    std::cout << DatalogToString();
+    //std::cout << DatalogToString();
 }
 
 void DatalogProgram::Match(TokenType tokenType) {
@@ -334,4 +359,16 @@ std::string DatalogProgram::DatalogToString() {
     ss << "Domain(" << domainParams.size() << "):" << std::endl;
     ss << DomainToString();
     return ss.str();
+}
+
+std::vector<Predicates*> DatalogProgram::GetSchemes() {
+    return schemes;
+}
+
+std::vector<Predicates*> DatalogProgram::GetFacts() {
+    return facts;
+}
+
+std::vector<Predicates*> DatalogProgram::GetQueries() {
+    return queries;
 }

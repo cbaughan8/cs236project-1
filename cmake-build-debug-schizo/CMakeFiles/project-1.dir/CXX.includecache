@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/users/guest/c/cbaughan/cs236/project-1/DatalogProgram.cpp
-DatalogProgram.h
-/users/guest/c/cbaughan/cs236/project-1/DatalogProgram.h
-Predicates.h
-/users/guest/c/cbaughan/cs236/project-1/Predicates.h
+/users/guest/c/cbaughan/cs236/project-1/Database.h
+Relation.h
+/users/guest/c/cbaughan/cs236/project-1/Relation.h
+map
+-
 
 /users/guest/c/cbaughan/cs236/project-1/DatalogProgram.h
 Token.h
@@ -24,19 +24,63 @@ Rules.h
 vector
 -
 
+/users/guest/c/cbaughan/cs236/project-1/Header.h
+vector
+-
+string
+-
+
+/users/guest/c/cbaughan/cs236/project-1/Interpreter.cpp
+Interpreter.h
+/users/guest/c/cbaughan/cs236/project-1/Interpreter.h
+iostream
+-
+
+/users/guest/c/cbaughan/cs236/project-1/Interpreter.h
+DatalogProgram.h
+/users/guest/c/cbaughan/cs236/project-1/DatalogProgram.h
+Database.h
+/users/guest/c/cbaughan/cs236/project-1/Database.h
+
 /users/guest/c/cbaughan/cs236/project-1/Parameters.h
 string
 -
 
 /users/guest/c/cbaughan/cs236/project-1/Predicates.h
+Parameters.h
+/users/guest/c/cbaughan/cs236/project-1/Parameters.h
 string
+-
+vector
+-
+
+/users/guest/c/cbaughan/cs236/project-1/Relation.h
+Header.h
+/users/guest/c/cbaughan/cs236/project-1/Header.h
+Tuple.h
+/users/guest/c/cbaughan/cs236/project-1/Tuple.h
+string
+-
+set
+-
+vector
 -
 
 /users/guest/c/cbaughan/cs236/project-1/Rules.h
+Predicates.h
+/users/guest/c/cbaughan/cs236/project-1/Predicates.h
+vector
+-
 string
 -
 
 /users/guest/c/cbaughan/cs236/project-1/Token.h
+string
+-
+
+/users/guest/c/cbaughan/cs236/project-1/Tuple.h
+vector
+-
 string
 -
 

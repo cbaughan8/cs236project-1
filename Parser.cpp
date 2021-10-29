@@ -14,6 +14,7 @@ DatalogProgram* Parser::Run(std::vector<Token*> tokens){
     DatalogProgram* datalogProgram = new DatalogProgram(this->tokens);
     datalogProgram->Init(datalogProgram);
 
+    this->datalogProgram = *datalogProgram;
     // maybe make a deep copy
     return datalogProgram;
 }
@@ -34,4 +35,7 @@ std::string Parser::TokensToString() {
         tokenString = tokenString += tokens.at(i)->toString();
     }
     return tokenString;
+}
+DatalogProgram Parser::GetDatalogProgram() {
+    return this->datalogProgram;
 }

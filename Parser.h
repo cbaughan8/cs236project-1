@@ -8,6 +8,7 @@
 class Parser
 {
 private:
+    DatalogProgram datalogProgram;
     std::vector<Token*> tokens;
 public:
     Parser();
@@ -16,6 +17,7 @@ public:
     DatalogProgram* Run(std::vector<Token*> tokens);
     void ClearComments();
     std::string TokensToString();
+    DatalogProgram GetDatalogProgram();
 
 
 };

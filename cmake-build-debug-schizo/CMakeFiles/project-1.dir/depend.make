@@ -26,6 +26,12 @@ CMakeFiles/project-1.dir/CommentAutomaton.cpp.o: ../CommentAutomaton.cpp
 CMakeFiles/project-1.dir/CommentAutomaton.cpp.o: ../CommentAutomaton.h
 CMakeFiles/project-1.dir/CommentAutomaton.cpp.o: ../Token.h
 
+CMakeFiles/project-1.dir/Database.cpp.o: ../Database.cpp
+CMakeFiles/project-1.dir/Database.cpp.o: ../Database.h
+CMakeFiles/project-1.dir/Database.cpp.o: ../Header.h
+CMakeFiles/project-1.dir/Database.cpp.o: ../Relation.h
+CMakeFiles/project-1.dir/Database.cpp.o: ../Tuple.h
+
 CMakeFiles/project-1.dir/DatalogProgram.cpp.o: ../DatalogProgram.cpp
 CMakeFiles/project-1.dir/DatalogProgram.cpp.o: ../DatalogProgram.h
 CMakeFiles/project-1.dir/DatalogProgram.cpp.o: ../Parameters.h
@@ -43,10 +49,25 @@ CMakeFiles/project-1.dir/FactsAutomaton.cpp.o: ../FactsAutomaton.cpp
 CMakeFiles/project-1.dir/FactsAutomaton.cpp.o: ../FactsAutomaton.h
 CMakeFiles/project-1.dir/FactsAutomaton.cpp.o: ../Token.h
 
+CMakeFiles/project-1.dir/Header.cpp.o: ../Header.cpp
+CMakeFiles/project-1.dir/Header.cpp.o: ../Header.h
+
 CMakeFiles/project-1.dir/IDAutomaton.cpp.o: ../Automaton.h
 CMakeFiles/project-1.dir/IDAutomaton.cpp.o: ../IDAutomaton.cpp
 CMakeFiles/project-1.dir/IDAutomaton.cpp.o: ../IDAutomaton.h
 CMakeFiles/project-1.dir/IDAutomaton.cpp.o: ../Token.h
+
+CMakeFiles/project-1.dir/Interpreter.cpp.o: ../Database.h
+CMakeFiles/project-1.dir/Interpreter.cpp.o: ../DatalogProgram.h
+CMakeFiles/project-1.dir/Interpreter.cpp.o: ../Header.h
+CMakeFiles/project-1.dir/Interpreter.cpp.o: ../Interpreter.cpp
+CMakeFiles/project-1.dir/Interpreter.cpp.o: ../Interpreter.h
+CMakeFiles/project-1.dir/Interpreter.cpp.o: ../Parameters.h
+CMakeFiles/project-1.dir/Interpreter.cpp.o: ../Predicates.h
+CMakeFiles/project-1.dir/Interpreter.cpp.o: ../Relation.h
+CMakeFiles/project-1.dir/Interpreter.cpp.o: ../Rules.h
+CMakeFiles/project-1.dir/Interpreter.cpp.o: ../Token.h
+CMakeFiles/project-1.dir/Interpreter.cpp.o: ../Tuple.h
 
 CMakeFiles/project-1.dir/Left_ParenAutomaton.cpp.o: ../Automaton.h
 CMakeFiles/project-1.dir/Left_ParenAutomaton.cpp.o: ../Left_ParenAutomaton.cpp
@@ -81,6 +102,9 @@ CMakeFiles/project-1.dir/MultiplyAutomaton.cpp.o: ../MultiplyAutomaton.cpp
 CMakeFiles/project-1.dir/MultiplyAutomaton.cpp.o: ../MultiplyAutomaton.h
 CMakeFiles/project-1.dir/MultiplyAutomaton.cpp.o: ../Token.h
 
+CMakeFiles/project-1.dir/Parameters.cpp.o: ../Parameters.cpp
+CMakeFiles/project-1.dir/Parameters.cpp.o: ../Parameters.h
+
 CMakeFiles/project-1.dir/Parser.cpp.o: ../DatalogProgram.h
 CMakeFiles/project-1.dir/Parser.cpp.o: ../Parameters.h
 CMakeFiles/project-1.dir/Parser.cpp.o: ../Parser.cpp
@@ -97,6 +121,10 @@ CMakeFiles/project-1.dir/PeriodAutomaton.cpp.o: ../PeriodAutomaton.cpp
 CMakeFiles/project-1.dir/PeriodAutomaton.cpp.o: ../PeriodAutomaton.h
 CMakeFiles/project-1.dir/PeriodAutomaton.cpp.o: ../Token.h
 
+CMakeFiles/project-1.dir/Predicates.cpp.o: ../Parameters.h
+CMakeFiles/project-1.dir/Predicates.cpp.o: ../Predicates.cpp
+CMakeFiles/project-1.dir/Predicates.cpp.o: ../Predicates.h
+
 CMakeFiles/project-1.dir/Q_MarkAutomaton.cpp.o: ../Automaton.h
 CMakeFiles/project-1.dir/Q_MarkAutomaton.cpp.o: ../Q_MarkAutomaton.cpp
 CMakeFiles/project-1.dir/Q_MarkAutomaton.cpp.o: ../Q_MarkAutomaton.h
@@ -107,10 +135,20 @@ CMakeFiles/project-1.dir/QueriesAutomaton.cpp.o: ../QueriesAutomaton.cpp
 CMakeFiles/project-1.dir/QueriesAutomaton.cpp.o: ../QueriesAutomaton.h
 CMakeFiles/project-1.dir/QueriesAutomaton.cpp.o: ../Token.h
 
+CMakeFiles/project-1.dir/Relation.cpp.o: ../Header.h
+CMakeFiles/project-1.dir/Relation.cpp.o: ../Relation.cpp
+CMakeFiles/project-1.dir/Relation.cpp.o: ../Relation.h
+CMakeFiles/project-1.dir/Relation.cpp.o: ../Tuple.h
+
 CMakeFiles/project-1.dir/Right_ParenAutomaton.cpp.o: ../Automaton.h
 CMakeFiles/project-1.dir/Right_ParenAutomaton.cpp.o: ../Right_ParenAutomaton.cpp
 CMakeFiles/project-1.dir/Right_ParenAutomaton.cpp.o: ../Right_ParenAutomaton.h
 CMakeFiles/project-1.dir/Right_ParenAutomaton.cpp.o: ../Token.h
+
+CMakeFiles/project-1.dir/Rules.cpp.o: ../Parameters.h
+CMakeFiles/project-1.dir/Rules.cpp.o: ../Predicates.h
+CMakeFiles/project-1.dir/Rules.cpp.o: ../Rules.cpp
+CMakeFiles/project-1.dir/Rules.cpp.o: ../Rules.h
 
 CMakeFiles/project-1.dir/RulesAutomaton.cpp.o: ../Automaton.h
 CMakeFiles/project-1.dir/RulesAutomaton.cpp.o: ../RulesAutomaton.cpp
@@ -130,18 +168,26 @@ CMakeFiles/project-1.dir/StringAutomaton.cpp.o: ../Token.h
 CMakeFiles/project-1.dir/Token.cpp.o: ../Token.cpp
 CMakeFiles/project-1.dir/Token.cpp.o: ../Token.h
 
+CMakeFiles/project-1.dir/Tuple.cpp.o: ../Tuple.cpp
+CMakeFiles/project-1.dir/Tuple.cpp.o: ../Tuple.h
+
 CMakeFiles/project-1.dir/UndefinedAutomaton.cpp.o: ../Automaton.h
 CMakeFiles/project-1.dir/UndefinedAutomaton.cpp.o: ../Token.h
 CMakeFiles/project-1.dir/UndefinedAutomaton.cpp.o: ../UndefinedAutomaton.cpp
 CMakeFiles/project-1.dir/UndefinedAutomaton.cpp.o: ../UndefinedAutomaton.h
 
 CMakeFiles/project-1.dir/main.cpp.o: ../Automaton.h
+CMakeFiles/project-1.dir/main.cpp.o: ../Database.h
 CMakeFiles/project-1.dir/main.cpp.o: ../DatalogProgram.h
+CMakeFiles/project-1.dir/main.cpp.o: ../Header.h
+CMakeFiles/project-1.dir/main.cpp.o: ../Interpreter.h
 CMakeFiles/project-1.dir/main.cpp.o: ../Lexer.h
 CMakeFiles/project-1.dir/main.cpp.o: ../Parameters.h
 CMakeFiles/project-1.dir/main.cpp.o: ../Parser.h
 CMakeFiles/project-1.dir/main.cpp.o: ../Predicates.h
+CMakeFiles/project-1.dir/main.cpp.o: ../Relation.h
 CMakeFiles/project-1.dir/main.cpp.o: ../Rules.h
 CMakeFiles/project-1.dir/main.cpp.o: ../Token.h
+CMakeFiles/project-1.dir/main.cpp.o: ../Tuple.h
 CMakeFiles/project-1.dir/main.cpp.o: ../main.cpp
 

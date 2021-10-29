@@ -15,6 +15,7 @@ public:
     Predicates(std::string name);
     void SetName(std::string name);
     std::string GetName();
+    std::string GetId();
     void AddId(std::string id);
     void AddParameter(Parameters* param);
     std::vector<Parameters*> GetParameters();

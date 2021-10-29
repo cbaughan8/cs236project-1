@@ -33,6 +33,7 @@ private:
     Predicates* tempPred;
 
 public:
+    DatalogProgram();
     DatalogProgram(std::vector<Token*> tokenList);
     ~DatalogProgram();
     void Init(DatalogProgram* self);
@@ -61,6 +62,10 @@ public:
     std::string QueriesToString();
     std::string DomainToString();
     std::string DatalogToString();
+
+    std::vector<Predicates*> GetSchemes();
+    std::vector<Predicates*> GetFacts();
+    std::vector<Predicates*> GetQueries();
 };
 
 #endif //PROJECT_1_DATALOGPROGRAM_H

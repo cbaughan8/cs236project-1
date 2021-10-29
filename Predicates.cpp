@@ -16,6 +16,10 @@ std::string Predicates::GetName() {
     return name;
 }
 
+std::string Predicates::GetId() {
+    return id;
+}
+
 void Predicates::AddParameter(Parameters* param) {
     parameters.push_back(param);
 }
