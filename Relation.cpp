@@ -136,11 +136,9 @@ Header Relation::combineHeaders(Header header2, std::map<std::string, int> &colu
 bool Relation::isJoinable(Tuple t1, Tuple t2, std::map<std::string, int> columnPairs) {
     // for each attribute in header that has a column pair, if t1 at header.example == t2 at header2.matchingExample
     bool canJoin = true;
-    bool pairExists = false;
     for (unsigned int i = 0; i < header.size(); i++){
         // if element exists in column pairs
         if (columnPairs.find(header.getAttribute(i)) != columnPairs.end()){
-            pairExists = true;
             if (t1.getString(i) != t2.getString(columnPairs[header.getAttribute(i)])){
                 canJoin = false;
             }
