@@ -15,41 +15,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4b875bf3-2ab4-42e5-9cc2-355a1909f715" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Database.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Database.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Header.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Header.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Interpreter.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Interpreter.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Relation.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Relation.h" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tuple.cpp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Tuple.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Database.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Database.h" beforeDir="false" afterPath="$PROJECT_DIR$/Database.h" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DatalogProgram.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/DatalogProgram.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DatalogProgram.h" beforeDir="false" afterPath="$PROJECT_DIR$/DatalogProgram.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Parameters.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Parameters.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Parameters.h" beforeDir="false" afterPath="$PROJECT_DIR$/Parameters.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Parser.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Parser.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Parser.h" beforeDir="false" afterPath="$PROJECT_DIR$/Parser.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Predicates.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Predicates.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Predicates.h" beforeDir="false" afterPath="$PROJECT_DIR$/Predicates.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-schizo/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-schizo/CMakeFiles/Makefile2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-schizo/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-schizo/CMakeFiles/progress.marks" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-schizo/CMakeFiles/project-1.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-schizo/CMakeFiles/project-1.dir/CXX.includecache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-schizo/CMakeFiles/project-1.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-schizo/CMakeFiles/project-1.dir/DependInfo.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-schizo/CMakeFiles/project-1.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-schizo/CMakeFiles/project-1.dir/build.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-schizo/CMakeFiles/project-1.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-schizo/CMakeFiles/project-1.dir/cmake_clean.cmake" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-schizo/CMakeFiles/project-1.dir/depend.internal" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-schizo/CMakeFiles/project-1.dir/depend.internal" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-schizo/CMakeFiles/project-1.dir/depend.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-schizo/CMakeFiles/project-1.dir/depend.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-schizo/CMakeFiles/project-1.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-schizo/CMakeFiles/project-1.dir/link.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-schizo/CMakeFiles/project-1.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-schizo/CMakeFiles/project-1.dir/progress.make" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-schizo/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-schizo/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-schizo/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-schizo/Testing/Temporary/LastTest.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cmake-build-debug-schizo/project-1.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-schizo/project-1.cbp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/makefile" beforeDir="false" afterPath="$PROJECT_DIR$/makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Header.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Header.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Header.h" beforeDir="false" afterPath="$PROJECT_DIR$/Header.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Interpreter.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Interpreter.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Interpreter.h" beforeDir="false" afterPath="$PROJECT_DIR$/Interpreter.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Relation.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Relation.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Relation.h" beforeDir="false" afterPath="$PROJECT_DIR$/Relation.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rules.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Rules.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Rules.h" beforeDir="false" afterPath="$PROJECT_DIR$/Rules.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tuple.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Tuple.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tuple.h" beforeDir="false" afterPath="$PROJECT_DIR$/Tuple.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/makefile" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -100,19 +81,14 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="CLionExternalRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
-      <method v="2">
-        <option name="CLION.EXTERNAL.BUILD" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="project-1" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="Lab3PassOffCases/in62.txt" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" WORKING_DIR="file://$PROJECT_DIR$" PASS_PARENT_ENVS_2="true" PROJECT_NAME="project-1" TARGET_NAME="project-1" CONFIG_NAME="Debug-Schizo" RUN_TARGET_PROJECT_NAME="project-1" RUN_TARGET_NAME="project-1">
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+    <configuration name="project-1" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="Lab4PassOffCases/4-80/input4.txt" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" WORKING_DIR="file://$PROJECT_DIR$" PASS_PARENT_ENVS_2="true" PROJECT_NAME="project-1" TARGET_NAME="project-1" CONFIG_NAME="Debug-Schizo" RUN_TARGET_PROJECT_NAME="project-1" RUN_TARGET_NAME="project-1">
       <method v="2">
-        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
   </component>
@@ -136,7 +112,16 @@
       <workItem from="1632276279991" duration="2404000" />
       <workItem from="1632870702913" duration="53964000" />
       <workItem from="1635294936449" duration="4170000" />
-      <workItem from="1635299255542" duration="62951000" />
+      <workItem from="1635299255542" duration="63844000" />
+      <workItem from="1635537433245" duration="901000" />
+      <workItem from="1635623745854" duration="3266000" />
+      <workItem from="1635635916497" duration="220000" />
+      <workItem from="1635645426913" duration="605000" />
+      <workItem from="1635791932409" duration="1230000" />
+      <workItem from="1635973289572" duration="1355000" />
+      <workItem from="1637190708439" duration="61000" />
+      <workItem from="1637365093849" duration="6553000" />
+      <workItem from="1637973093881" duration="55897000" />
     </task>
     <servers />
   </component>
@@ -158,13 +143,12 @@
   <component name="XDebuggerManager">
     <watches-manager>
       <configuration name="CMakeRunConfiguration">
-        <watch expression="index" language="ObjectiveC" />
-        <watch expression="name" language="ObjectiveC" />
-        <watch expression="header.getAttributeVector().size()" language="ObjectiveC" />
-        <watch expression="attributes.size()" language="ObjectiveC" />
-        <watch expression="tuples.size()" language="ObjectiveC" />
-        <watch expression="attributes.at(j)" language="ObjectiveC" />
-        <watch expression="header.getAttribute(attributes.at(i))" language="ObjectiveC" />
+        <watch expression="headPredicate.GetId()" language="ObjectiveC" />
+        <watch expression="rules.size()" language="ObjectiveC" />
+        <watch expression="rules.at(2)-&gt;getHeadPredicate()-&gt;GetId()" language="ObjectiveC" />
+        <watch expression="projectIndices" language="ObjectiveC" />
+        <watch expression="tuples1.insert(t2).second" language="ObjectiveC" />
+        <watch expression="tuples1.insert(t2).second" language="ObjectiveC" />
       </configuration>
     </watches-manager>
   </component>

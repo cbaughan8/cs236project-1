@@ -13,8 +13,16 @@ std::string Tuple::getString(int index) {
     return strings.at(index);
 }
 
+void Tuple::setStrings(std::vector<std::string> newStrings) {
+    strings = newStrings;
+}
+
 std::vector<std::string> Tuple::getStrings() {
     return strings;
+}
+
+size_t Tuple::size(){
+    return strings.size();
 }
 
 std::string Tuple::toString() {

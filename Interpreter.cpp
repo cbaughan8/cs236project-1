@@ -20,6 +20,7 @@ void Interpreter::makeDatabase(){
 }
 
 void Interpreter::run() {
+    evaluateRules();
     evaluateQueries();
 }
 
@@ -50,12 +51,66 @@ void Interpreter::makeFactTuples() {
         database.addTupleToRelation(name, tuple);
     }
 }
+void Interpreter::evaluateRules(){
+    std::cout << "Rule Evaluation" << std::endl;
+    std::vector<Rules*> rules = datalog.GetRules();
+    int passes = 0;
+    int countBefore;
+
+    bool tuplesAdded = true;
+    while(tuplesAdded){
+        passes++;
+        tuplesAdded = false;
+        countBefore = database.tupleCount();
+        for (unsigned int i = 0; i < rules.size(); i++){
+            Rules rule = *rules.at(i);
+            evaluateRule(rule);
+        }
+        int countAfter = database.tupleCount();
+        if(countBefore != countAfter) tuplesAdded = true;
+    }
+    std::cout << std::endl << "Schemes populated after " << passes << " passes through the Rules." << std::endl << std::endl;
+}
+
+void Interpreter::evaluateRule(Rules &rule){
+    Relation newRelation;
+    std::vector<Relation> BPRelations;
+    std::cout << rule.toString() << std::endl;
+    for (unsigned int j = 0; j < rule.GetBodyPredicates().size(); j++){
+        BPRelations.push_back(evaluatePredicate(*rule.GetBodyPredicates().at(j)));
+    }
+    newRelation = BPRelations.at(0);
+    if (rule.GetBodyPredicates().size() > 1){
+        for (unsigned int j = 1; j < BPRelations.size(); j++){
+            newRelation = newRelation.join(BPRelations.at(j));
+        }
+    }
+    Predicates headPredicate = *rule.getHeadPredicate();
+
+    std::vector<int> projectIndices;
+    std::vector<std::string> renameReplacers;
+    for (unsigned int k = 0; k < headPredicate.GetParameters().size(); k++){
+        for (unsigned int j = 0; j < newRelation.getHeader().size(); j++){
+            // save indices of header
+            if (headPredicate.GetParameters().at(k)->Getp() == newRelation.getHeader().getAttribute(j)){
+                projectIndices.push_back(j);
+                renameReplacers.push_back(newRelation.getHeader().getAttribute(j));
+            }
+        }
+    }
+    newRelation = newRelation.project(projectIndices);
+    newRelation = newRelation.rename(renameReplacers);
+    // newRelation = newRelation.unionR(database.getRelation(headPredicate.GetId()));
+    newRelation = database.getRelation(headPredicate.GetId()).unionR(newRelation);
+    // std::cout << newRelation.toString() << std::endl;
+    database.setRelation(headPredicate.GetId(), newRelation);
+}
 
 void Interpreter::evaluateQueries() {
     std::vector<Predicates*> queries = datalog.GetQueries();
+    std::cout << "Query Evaluation" << std::endl;
     for (unsigned int i = 0; i < queries.size(); ++i) {
         std::cout << queries.at(i)->toString() << "? ";
-        // yes or no
         std::cout << queriesToString(evaluatePredicate(*queries.at(i)));
     }
 
@@ -107,3 +162,32 @@ std::string Interpreter::queriesToString(Relation relation){
     ss << relation.toString() << std::endl;
     return ss.str();
 }
+
+/*std::vector<Relation> BPRelations;
+            for (unsigned int j = 0; j < rules.at(i)->GetBodyPredicates().size(); j++){
+                BPRelations.push_back(evaluatePredicate(*rules.at(i)->GetBodyPredicates().at(j)));
+            }
+            newRelation = BPRelations.at(0);
+            if (rules.at(i)->GetBodyPredicates().size() > 1){
+                for (unsigned int j = 1; j < BPRelations.size(); j++){
+                    newRelation.join(BPRelations.at(j));
+                }
+            }
+            Predicates headPredicate = *rules.at(i)->getHeadPredicate();
+
+            std::vector<int> projectIndices;
+            std::vector<std::string> renameReplacers;
+            for (unsigned int k = 0; k < headPredicate.GetParameters().size(); k++){
+                for (unsigned int j = 0; j < newRelation.getHeader().size(); j++){
+                    // save indices of header
+                    if (headPredicate.GetParameters().at(k)->Getp() == newRelation.getHeader().getAttribute(j)){
+                        projectIndices.push_back(j);
+                        renameReplacers.push_back(newRelation.getHeader().getAttribute(j));
+                    }
+                }
+            }
+            newRelation.project(projectIndices);
+            newRelation.rename(renameReplacers);
+            newRelation.unionR(database.getRelation(headPredicate.GetId()));
+            std::cout << newRelation.toString() << std::endl;
+            //database.setRelation(headPredicate.GetId(), newRelation);*/

@@ -12,6 +12,14 @@ std::string Rules::GetName() {
     return name;
 }
 
+std::vector<Predicates*> Rules::GetBodyPredicates(){
+    return bodyPredicates;
+}
+
+Predicates* Rules::getHeadPredicate(){
+    return headPredicate;
+}
+
 void Rules::AddHeadPredicate(Predicates *headP) {
     this->headPredicate = headP;
 }
@@ -22,7 +30,7 @@ void Rules::AddBodyPredicate(Predicates *bodyP) {
 
 std::string Rules::toString() {
     std::stringstream ss;
-    ss << "  " << headPredicate->toString() << " :- ";
+    ss << headPredicate->toString() << " :- ";
     for (unsigned int i = 0; i < bodyPredicates.size(); ++i){
         //if (i != 0) ss << ",";
         ss << bodyPredicates.at(i)->toString();

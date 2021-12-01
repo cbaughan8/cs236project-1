@@ -14,8 +14,11 @@ public:
     void makeDatabase();
     void makeSchemeRelations();
     void makeFactTuples();
+    void evaluateRules();
+    void evaluateRule(Rules &rule);
     void evaluateQueries();
     Relation evaluatePredicate(Predicates p);
+    std::string rulesToString();
     std::string queriesToString(Relation relation);
     std::string toString();
 

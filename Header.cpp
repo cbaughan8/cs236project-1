@@ -17,6 +17,10 @@ void Header::setAttribute(int index, std::string value) {
     attributes.at(index) = value;
 }
 
+size_t Header::size() {
+    return attributes.size();
+}
+
 std::string Header::toString() {
     std::stringstream ss;
     for(unsigned int i = 0; i < attributes.size(); ++i){

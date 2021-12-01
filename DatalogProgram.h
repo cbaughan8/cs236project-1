@@ -66,6 +66,7 @@ public:
     std::vector<Predicates*> GetSchemes();
     std::vector<Predicates*> GetFacts();
     std::vector<Predicates*> GetQueries();
+    std::vector<Rules*> GetRules();
 };
 
 #endif //PROJECT_1_DATALOGPROGRAM_H

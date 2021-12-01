@@ -372,3 +372,7 @@ std::vector<Predicates*> DatalogProgram::GetFacts() {
 std::vector<Predicates*> DatalogProgram::GetQueries() {
     return queries;
 }
+
+std::vector<Rules*> DatalogProgram::GetRules() {
+    return rules;
+}

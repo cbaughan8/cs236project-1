@@ -11,6 +11,7 @@ public:
     std::string getAttribute(int index);
     std::vector<std::string> getAttributeVector();
     void setAttribute(int index, std::string value);
+    size_t size();
     std::string toString();
 
 };

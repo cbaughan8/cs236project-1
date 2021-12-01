@@ -11,6 +11,8 @@ public:
     Database();
     void addRelation(std::string name, Relation relation);
     void addTupleToRelation(std::string name, Tuple tuple);
+    void setRelation(const std::string &name, Relation newRelation);
+    int tupleCount();
     Relation getRelation(std::string name);
 
 };
