@@ -119,8 +119,14 @@ void Interpreter::evaluateRules(){
                 for (int node : SCCs.at(i)){
                     if (forwardGraph.getAdjNodes(node).empty()) tuplesAdded = false;
                     else{
+                        bool reflecting = false;
                         for (int adjNode : forwardGraph.getAdjNodes(node)){
-                            if(node != adjNode && forwardGraph.getAdjNodes(node).size() <= 1){
+                            if(node == adjNode){
+                                reflecting = true;
+                            }
+                        }
+                        for (int adjNode : forwardGraph.getAdjNodes(node)){
+                            if(node != adjNode && (forwardGraph.getAdjNodes(node).size() <= 1 || !reflecting)){
                                 tuplesAdded = false;
                             }
                         }
