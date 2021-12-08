@@ -117,9 +117,12 @@ void Interpreter::evaluateRules(){
             if(countBefore != countAfter) tuplesAdded = true;
             if(SCCs.at(i).size() == 1){
                 for (int node : SCCs.at(i)){
-                    for (int adjNode : forwardGraph.getAdjNodes(node)){
-                        if(node != adjNode){
-                            tuplesAdded = false;
+                    if (forwardGraph.getAdjNodes(node).empty()) tuplesAdded = false;
+                    else{
+                        for (int adjNode : forwardGraph.getAdjNodes(node)){
+                            if(node != adjNode){
+                                tuplesAdded = false;
+                            }
                         }
                     }
                 }
