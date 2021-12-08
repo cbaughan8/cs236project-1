@@ -8,6 +8,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/project-1.dir/DatalogProgram.cpp.o"
   "CMakeFiles/project-1.dir/EOFAutomaton.cpp.o"
   "CMakeFiles/project-1.dir/FactsAutomaton.cpp.o"
+  "CMakeFiles/project-1.dir/Graph.cpp.o"
   "CMakeFiles/project-1.dir/Header.cpp.o"
   "CMakeFiles/project-1.dir/IDAutomaton.cpp.o"
   "CMakeFiles/project-1.dir/Interpreter.cpp.o"

@@ -20,8 +20,11 @@ void Interpreter::makeDatabase(){
 }
 
 void Interpreter::run() {
+    makeDependencyGraph();
+    makeSCCs();
     evaluateRules();
     evaluateQueries();
+
 }
 
 void Interpreter::makeSchemeRelations() {
@@ -51,14 +54,83 @@ void Interpreter::makeFactTuples() {
         database.addTupleToRelation(name, tuple);
     }
 }
+
+void Interpreter::makeDependencyGraph() {
+    std::cout << "Dependency Graph" << std::endl;
+    std::vector<Rules*> rules = datalog.GetRules();
+    Graph graph(rules);
+    forwardGraph = graph;
+    reverseGraph = graph;
+
+    for (unsigned int i = 0; i < rules.size(); i++){
+        for (unsigned int j = 0; j < rules.at(i)->GetBodyPredicates().size(); j++){
+            for (unsigned int k = 0; k < rules.size(); k++){
+                if (rules.at(k)->getHeadPredicate()->GetId() == rules.at(i)->GetBodyPredicates().at(j)->GetId()){
+                    forwardGraph.addEdge(i, k);
+                    reverseGraph.addEdge(k, i);
+                }
+            }
+        }
+    }
+    std::cout << forwardGraph.dependenciesToString() << std::endl;
+    // std::cout << reverseGraph.dependenciesToString();
+}
+
+void Interpreter::makeSCCs() {
+    std::stack<int> postorder;
+    std::vector<int> reversePostorder;
+    postorder = reverseGraph.dfsForestPostorder();
+    std::stringstream ss;
+
+    while(!postorder.empty()) {
+        // ss << postorder.top() << " ";
+        reversePostorder.push_back(postorder.top());
+        postorder.pop();
+    }
+    //std::cout << ss.str() << std::endl;
+    SCCs = forwardGraph.dfsForestSCC(reversePostorder);
+}
+
 void Interpreter::evaluateRules(){
     std::cout << "Rule Evaluation" << std::endl;
     std::vector<Rules*> rules = datalog.GetRules();
-    int passes = 0;
     int countBefore;
-
     bool tuplesAdded = true;
-    while(tuplesAdded){
+    // if SCC has one node and that node isn't self-dependent, only evaluate once
+    // else evaluate SCC in fixed point algorithm
+    // maybe use set.fint(itself)
+
+    for (unsigned int i = 0; i < SCCs.size(); i++){
+        int passes = 0;
+        std::cout << "SCC: ";
+        std::cout << SCCToString(i) << std::endl;
+        tuplesAdded = true;
+        while(tuplesAdded){
+            passes++;
+            tuplesAdded = false;
+            countBefore = database.tupleCount();
+            for (int node : SCCs.at(i)){
+                Rules rule = *rules.at(node);
+                evaluateRule(rule);
+            }
+            int countAfter = database.tupleCount();
+            if(countBefore != countAfter) tuplesAdded = true;
+            if(SCCs.at(i).size() == 1){
+                for (int node : SCCs.at(i)){
+                    for (int adjNode : forwardGraph.getAdjNodes(node)){
+                        if(node != adjNode){
+                            tuplesAdded = false;
+                        }
+                    }
+                }
+            }
+        }
+        std::cout << passes << " passes: ";
+        std::cout << SCCToString(i) << std::endl;
+    }
+
+    // project 4 fixed point
+    /*while(tuplesAdded){
         passes++;
         tuplesAdded = false;
         countBefore = database.tupleCount();
@@ -68,8 +140,8 @@ void Interpreter::evaluateRules(){
         }
         int countAfter = database.tupleCount();
         if(countBefore != countAfter) tuplesAdded = true;
-    }
-    std::cout << std::endl << "Schemes populated after " << passes << " passes through the Rules." << std::endl << std::endl;
+    }*/
+
 }
 
 void Interpreter::evaluateRule(Rules &rule){
@@ -108,7 +180,7 @@ void Interpreter::evaluateRule(Rules &rule){
 
 void Interpreter::evaluateQueries() {
     std::vector<Predicates*> queries = datalog.GetQueries();
-    std::cout << "Query Evaluation" << std::endl;
+    std::cout << std::endl << "Query Evaluation" << std::endl;
     for (unsigned int i = 0; i < queries.size(); ++i) {
         std::cout << queries.at(i)->toString() << "? ";
         std::cout << queriesToString(evaluatePredicate(*queries.at(i)));
@@ -129,7 +201,7 @@ Relation Interpreter::evaluatePredicate(Predicates p) {
 
     for (unsigned int i = 0; i < params.size(); ++i){
         varExists = false;
-        if (params.at(i)->GetIsConstant() == true){
+        if (params.at(i)->GetIsConstant()){
             newRelation = newRelation.selectIV(i ,params.at(i)->Getp());
         }
         else{
@@ -156,6 +228,18 @@ Relation Interpreter::evaluatePredicate(Predicates p) {
     return newRelation;
 }
 
+std::string Interpreter::SCCToString(int index) {
+    std::stringstream ss;
+    bool comma = false;
+    for (int node : SCCs.at(index)){
+        if (comma) {
+            std::cout << ",";
+        }
+        comma = true;
+        std::cout << "R" << node;
+    }
+    return ss.str();
+}
 
 std::string Interpreter::queriesToString(Relation relation){
     std::stringstream ss;
@@ -163,31 +247,3 @@ std::string Interpreter::queriesToString(Relation relation){
     return ss.str();
 }
 
-/*std::vector<Relation> BPRelations;
-            for (unsigned int j = 0; j < rules.at(i)->GetBodyPredicates().size(); j++){
-                BPRelations.push_back(evaluatePredicate(*rules.at(i)->GetBodyPredicates().at(j)));
-            }
-            newRelation = BPRelations.at(0);
-            if (rules.at(i)->GetBodyPredicates().size() > 1){
-                for (unsigned int j = 1; j < BPRelations.size(); j++){
-                    newRelation.join(BPRelations.at(j));
-                }
-            }
-            Predicates headPredicate = *rules.at(i)->getHeadPredicate();
-
-            std::vector<int> projectIndices;
-            std::vector<std::string> renameReplacers;
-            for (unsigned int k = 0; k < headPredicate.GetParameters().size(); k++){
-                for (unsigned int j = 0; j < newRelation.getHeader().size(); j++){
-                    // save indices of header
-                    if (headPredicate.GetParameters().at(k)->Getp() == newRelation.getHeader().getAttribute(j)){
-                        projectIndices.push_back(j);
-                        renameReplacers.push_back(newRelation.getHeader().getAttribute(j));
-                    }
-                }
-            }
-            newRelation.project(projectIndices);
-            newRelation.rename(renameReplacers);
-            newRelation.unionR(database.getRelation(headPredicate.GetId()));
-            std::cout << newRelation.toString() << std::endl;
-            //database.setRelation(headPredicate.GetId(), newRelation);*/

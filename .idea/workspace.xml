@@ -15,7 +15,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4b875bf3-2ab4-42e5-9cc2-355a1909f715" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Relation.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Relation.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Graph.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Graph.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Interpreter.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Interpreter.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Interpreter.h" beforeDir="false" afterPath="$PROJECT_DIR$/Interpreter.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-schizo/CMakeFiles/Makefile2" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-schizo/CMakeFiles/Makefile2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-schizo/CMakeFiles/progress.marks" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-schizo/CMakeFiles/progress.marks" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-schizo/CMakeFiles/project-1.dir/CXX.includecache" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-schizo/CMakeFiles/project-1.dir/CXX.includecache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-schizo/CMakeFiles/project-1.dir/DependInfo.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-schizo/CMakeFiles/project-1.dir/DependInfo.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-schizo/CMakeFiles/project-1.dir/build.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-schizo/CMakeFiles/project-1.dir/build.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-schizo/CMakeFiles/project-1.dir/cmake_clean.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-schizo/CMakeFiles/project-1.dir/cmake_clean.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-schizo/CMakeFiles/project-1.dir/link.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-schizo/CMakeFiles/project-1.dir/link.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-schizo/CMakeFiles/project-1.dir/progress.make" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-schizo/CMakeFiles/project-1.dir/progress.make" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-schizo/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-schizo/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-schizo/Testing/Temporary/LastTest.log" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-schizo/Testing/Temporary/LastTest.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug-schizo/project-1.cbp" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug-schizo/project-1.cbp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,9 +87,14 @@
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
-    <configuration name="project-1" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="Lab4PassOffCases/4-80/input4.txt" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" WORKING_DIR="file://$PROJECT_DIR$" PASS_PARENT_ENVS_2="true" PROJECT_NAME="project-1" TARGET_NAME="project-1" CONFIG_NAME="Debug-Schizo" RUN_TARGET_PROJECT_NAME="project-1" RUN_TARGET_NAME="project-1">
+    <configuration name="project-1" type="CMakeRunConfiguration" factoryName="Application" PROGRAM_PARAMS="Lab5PassOffCases/5-100/input8.txt" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" WORKING_DIR="file://$PROJECT_DIR$" PASS_PARENT_ENVS_2="true" PROJECT_NAME="project-1" TARGET_NAME="project-1" CONFIG_NAME="Debug-Schizo" RUN_TARGET_PROJECT_NAME="project-1" RUN_TARGET_NAME="project-1">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
   </component>
@@ -106,7 +127,9 @@
       <workItem from="1635973289572" duration="1355000" />
       <workItem from="1637190708439" duration="61000" />
       <workItem from="1637365093849" duration="6553000" />
-      <workItem from="1637973093881" duration="56274000" />
+      <workItem from="1637973093881" duration="56858000" />
+      <workItem from="1638410702487" duration="5415000" />
+      <workItem from="1638909133876" duration="21713000" />
     </task>
     <servers />
   </component>
@@ -128,12 +151,9 @@
   <component name="XDebuggerManager">
     <watches-manager>
       <configuration name="CMakeRunConfiguration">
-        <watch expression="headPredicate.GetId()" language="ObjectiveC" />
-        <watch expression="rules.size()" language="ObjectiveC" />
-        <watch expression="rules.at(2)-&gt;getHeadPredicate()-&gt;GetId()" language="ObjectiveC" />
-        <watch expression="projectIndices" language="ObjectiveC" />
-        <watch expression="tuples1.insert(t2).second" language="ObjectiveC" />
-        <watch expression="tuples1.insert(t2).second" language="ObjectiveC" />
+        <watch expression="SCCs.at(i).size()" language="ObjectiveC" />
+        <watch expression="node " language="ObjectiveC" />
+        <watch expression="adjNode " language="ObjectiveC" />
       </configuration>
     </watches-manager>
   </component>
