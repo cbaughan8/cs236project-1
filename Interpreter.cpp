@@ -120,7 +120,7 @@ void Interpreter::evaluateRules(){
                     if (forwardGraph.getAdjNodes(node).empty()) tuplesAdded = false;
                     else{
                         for (int adjNode : forwardGraph.getAdjNodes(node)){
-                            if(node != adjNode){
+                            if(node != adjNode && forwardGraph.getAdjNodes(node).size() <= 1){
                                 tuplesAdded = false;
                             }
                         }
